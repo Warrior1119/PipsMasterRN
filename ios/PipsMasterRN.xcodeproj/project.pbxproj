@@ -61,6 +61,8 @@
 		687F5E8ADD83C98351650FBB /* libPods-PipsMasterRN-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PipsMasterRN-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		901AC8FFC81328FE0D597FE9 /* libPods-PipsMasterRNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PipsMasterRNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1459B5239766B700490C95 /* PipsMasterRN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = PipsMasterRN.entitlements; path = PipsMasterRN/PipsMasterRN.entitlements; sourceTree = "<group>"; };
+		9F1459C723982B0B00490C95 /* libRealmJS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRealmJS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1459D823989E9600490C95 /* libreact-native-realm-path.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-realm-path.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B038C8933379122BD3653CE1 /* Pods-PipsMasterRNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipsMasterRNTests.release.xcconfig"; path = "Target Support Files/Pods-PipsMasterRNTests/Pods-PipsMasterRNTests.release.xcconfig"; sourceTree = "<group>"; };
 		BD790DBA96B8EBA6FE9BAC13 /* Pods-PipsMasterRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipsMasterRN.debug.xcconfig"; path = "Target Support Files/Pods-PipsMasterRN/Pods-PipsMasterRN.debug.xcconfig"; sourceTree = "<group>"; };
 		DB8F23AA1064834333ECA1F3 /* Pods-PipsMasterRN-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipsMasterRN-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-PipsMasterRN-tvOS/Pods-PipsMasterRN-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -141,6 +143,8 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9F1459D823989E9600490C95 /* libreact-native-realm-path.a */,
+				9F1459C723982B0B00490C95 /* libRealmJS.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				385F770063E619480B6296D2 /* libPods-PipsMasterRN.a */,
