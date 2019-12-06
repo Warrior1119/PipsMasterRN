@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* PipsMasterRNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PipsMasterRNTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -18,6 +16,12 @@
 		2DCD954D1E0B4F2C00145EB5 /* PipsMasterRNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PipsMasterRNTests.m */; };
 		76B616024D6FCF6800DE52E0 /* libPods-PipsMasterRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 385F770063E619480B6296D2 /* libPods-PipsMasterRN.a */; };
 		7D93DCEE2AD631B0DDEB4488 /* libPods-PipsMasterRN-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 687F5E8ADD83C98351650FBB /* libPods-PipsMasterRN-tvOSTests.a */; };
+		9F19ACD1239A64B40037ECB6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F19ACCF239A64B40037ECB6 /* GoogleService-Info.plist */; };
+		9F19ACD9239ABB9B0037ECB6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F19ACD7239ABB9B0037ECB6 /* LaunchScreen.xib */; };
+		9F6175D1239AE9C400F70D47 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6175D0239AE9C300F70D47 /* libc++.tbd */; };
+		9F6175D3239AE9CE00F70D47 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6175D2239AE9CE00F70D47 /* libz.tbd */; };
+		9F6175D4239AE9D700F70D47 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
+		9FD75DE923991B8300F37869 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		A8CCDFC4E128A801DE42275F /* libPods-PipsMasterRN-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC63807A430D6763E25DA26 /* libPods-PipsMasterRN-tvOS.a */; };
 		FBD57489AF9244CCBD96169F /* libPods-PipsMasterRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 901AC8FFC81328FE0D597FE9 /* libPods-PipsMasterRNTests.a */; };
 /* End PBXBuildFile section */
@@ -48,7 +52,6 @@
 		13B07F961A680F5B00A75B9A /* PipsMasterRN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PipsMasterRN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PipsMasterRN/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = PipsMasterRN/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PipsMasterRN/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PipsMasterRN/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PipsMasterRN/main.m; sourceTree = "<group>"; };
@@ -61,8 +64,10 @@
 		687F5E8ADD83C98351650FBB /* libPods-PipsMasterRN-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PipsMasterRN-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		901AC8FFC81328FE0D597FE9 /* libPods-PipsMasterRNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PipsMasterRNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1459B5239766B700490C95 /* PipsMasterRN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = PipsMasterRN.entitlements; path = PipsMasterRN/PipsMasterRN.entitlements; sourceTree = "<group>"; };
-		9F1459C723982B0B00490C95 /* libRealmJS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRealmJS.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F1459D823989E9600490C95 /* libreact-native-realm-path.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-realm-path.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F19ACCF239A64B40037ECB6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9F19ACD8239ABB9B0037ECB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = PipsMasterRN/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9F6175D0239AE9C300F70D47 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		9F6175D2239AE9CE00F70D47 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		B038C8933379122BD3653CE1 /* Pods-PipsMasterRNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipsMasterRNTests.release.xcconfig"; path = "Target Support Files/Pods-PipsMasterRNTests/Pods-PipsMasterRNTests.release.xcconfig"; sourceTree = "<group>"; };
 		BD790DBA96B8EBA6FE9BAC13 /* Pods-PipsMasterRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipsMasterRN.debug.xcconfig"; path = "Target Support Files/Pods-PipsMasterRN/Pods-PipsMasterRN.debug.xcconfig"; sourceTree = "<group>"; };
 		DB8F23AA1064834333ECA1F3 /* Pods-PipsMasterRN-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipsMasterRN-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-PipsMasterRN-tvOS/Pods-PipsMasterRN-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -85,6 +90,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F6175D4239AE9D700F70D47 /* JavaScriptCore.framework in Frameworks */,
+				9F6175D3239AE9CE00F70D47 /* libz.tbd in Frameworks */,
+				9F6175D1239AE9C400F70D47 /* libc++.tbd in Frameworks */,
 				76B616024D6FCF6800DE52E0 /* libPods-PipsMasterRN.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,13 +136,14 @@
 		13B07FAE1A68108700A75B9A /* PipsMasterRN */ = {
 			isa = PBXGroup;
 			children = (
-				9F1459B5239766B700490C95 /* PipsMasterRN.entitlements */,
+				9F19ACD7239ABB9B0037ECB6 /* LaunchScreen.xib */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				9F19ACCF239A64B40037ECB6 /* GoogleService-Info.plist */,
+				9F1459B5239766B700490C95 /* PipsMasterRN.entitlements */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = PipsMasterRN;
@@ -143,8 +152,8 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9F1459D823989E9600490C95 /* libreact-native-realm-path.a */,
-				9F1459C723982B0B00490C95 /* libRealmJS.a */,
+				9F6175D2239AE9CE00F70D47 /* libz.tbd */,
+				9F6175D0239AE9C300F70D47 /* libc++.tbd */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				385F770063E619480B6296D2 /* libPods-PipsMasterRN.a */,
@@ -235,6 +244,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				CBBC457DB654D345955B47D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -351,8 +361,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				9FD75DE923991B8300F37869 /* Images.xcassets in Resources */,
+				9F19ACD9239ABB9B0037ECB6 /* LaunchScreen.xib in Resources */,
+				9F19ACD1239A64B40037ECB6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +397,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
 		119DD6DB6499D21B8AC43C08 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -444,6 +455,58 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBBC457DB654D345955B47D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PipsMasterRN/Pods-PipsMasterRN-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/QBImagePickerController/QBImagePicker.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_ROOT}/RSKImageCropper/RSKImageCropper/RSKImageCropperStrings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RSKImageCropperStrings.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PipsMasterRN/Pods-PipsMasterRN-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D9BAD7EB4758454360FE4B4B /* [CP] Check Pods Manifest.lock */ = {
@@ -581,13 +644,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+		9F19ACD7239ABB9B0037ECB6 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				13B07FB21A68108700A75B9A /* Base */,
+				9F19ACD8239ABB9B0037ECB6 /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = PipsMasterRN;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
