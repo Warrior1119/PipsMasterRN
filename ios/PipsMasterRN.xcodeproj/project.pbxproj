@@ -17,10 +17,10 @@
 		76B616024D6FCF6800DE52E0 /* libPods-PipsMasterRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 385F770063E619480B6296D2 /* libPods-PipsMasterRN.a */; };
 		7D93DCEE2AD631B0DDEB4488 /* libPods-PipsMasterRN-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 687F5E8ADD83C98351650FBB /* libPods-PipsMasterRN-tvOSTests.a */; };
 		9F19ACD1239A64B40037ECB6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F19ACCF239A64B40037ECB6 /* GoogleService-Info.plist */; };
-		9F19ACD9239ABB9B0037ECB6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F19ACD7239ABB9B0037ECB6 /* LaunchScreen.xib */; };
 		9F6175D1239AE9C400F70D47 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6175D0239AE9C300F70D47 /* libc++.tbd */; };
 		9F6175D3239AE9CE00F70D47 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6175D2239AE9CE00F70D47 /* libz.tbd */; };
 		9F6175D4239AE9D700F70D47 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
+		9F858482239B47D60015ADF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F858480239B47D60015ADF5 /* LaunchScreen.xib */; };
 		9FD75DE923991B8300F37869 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		A8CCDFC4E128A801DE42275F /* libPods-PipsMasterRN-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC63807A430D6763E25DA26 /* libPods-PipsMasterRN-tvOS.a */; };
 		FBD57489AF9244CCBD96169F /* libPods-PipsMasterRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 901AC8FFC81328FE0D597FE9 /* libPods-PipsMasterRNTests.a */; };
@@ -65,9 +65,9 @@
 		901AC8FFC81328FE0D597FE9 /* libPods-PipsMasterRNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PipsMasterRNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1459B5239766B700490C95 /* PipsMasterRN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = PipsMasterRN.entitlements; path = PipsMasterRN/PipsMasterRN.entitlements; sourceTree = "<group>"; };
 		9F19ACCF239A64B40037ECB6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		9F19ACD8239ABB9B0037ECB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = PipsMasterRN/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9F6175D0239AE9C300F70D47 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		9F6175D2239AE9CE00F70D47 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9F858481239B47D60015ADF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = PipsMasterRN/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B038C8933379122BD3653CE1 /* Pods-PipsMasterRNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipsMasterRNTests.release.xcconfig"; path = "Target Support Files/Pods-PipsMasterRNTests/Pods-PipsMasterRNTests.release.xcconfig"; sourceTree = "<group>"; };
 		BD790DBA96B8EBA6FE9BAC13 /* Pods-PipsMasterRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipsMasterRN.debug.xcconfig"; path = "Target Support Files/Pods-PipsMasterRN/Pods-PipsMasterRN.debug.xcconfig"; sourceTree = "<group>"; };
 		DB8F23AA1064834333ECA1F3 /* Pods-PipsMasterRN-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipsMasterRN-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-PipsMasterRN-tvOS/Pods-PipsMasterRN-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,7 +136,7 @@
 		13B07FAE1A68108700A75B9A /* PipsMasterRN */ = {
 			isa = PBXGroup;
 			children = (
-				9F19ACD7239ABB9B0037ECB6 /* LaunchScreen.xib */,
+				9F858480239B47D60015ADF5 /* LaunchScreen.xib */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				9F19ACCF239A64B40037ECB6 /* GoogleService-Info.plist */,
 				9F1459B5239766B700490C95 /* PipsMasterRN.entitlements */,
@@ -362,7 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FD75DE923991B8300F37869 /* Images.xcassets in Resources */,
-				9F19ACD9239ABB9B0037ECB6 /* LaunchScreen.xib in Resources */,
+				9F858482239B47D60015ADF5 /* LaunchScreen.xib in Resources */,
 				9F19ACD1239A64B40037ECB6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -644,10 +644,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9F19ACD7239ABB9B0037ECB6 /* LaunchScreen.xib */ = {
+		9F858480239B47D60015ADF5 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9F19ACD8239ABB9B0037ECB6 /* Base */,
+				9F858481239B47D60015ADF5 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
